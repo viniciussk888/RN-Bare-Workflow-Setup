@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "RN-Expo-BareWorkflow-Setup",
+    "slug": "RN-Expo-BareWorkflow-Setup",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "RN-Expo-BareWorkflow-Setup"
+}
