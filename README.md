@@ -1,9 +1,9 @@
 # RN-Bare-Workflow-Setup
 Setup inicial usando React Native Expo Bare Workflow.
 
-1 - Clone o repositorio.
-2 - Rode yarn ou npm install.
-3 - Renomeie o name e o slug no app.json para o nome desejado.
+- Clone o repositorio.
+- Rode yarn ou npm install.
+- Renomeie o name e o slug no app.json para o nome desejado.
 
 Projeto configurado com:
 - Typescript,
