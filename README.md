@@ -1,5 +1,5 @@
 # RN-Bare-Workflow-Setup
-Setup inicial usando React Native Expo Bare Workflow, com typescript e fontes da google configurado.
+Setup inicial usando React Native Expo Bare Workflow.
 
 1 - Clone o repositorio.
 2 - Rode yarn ou npm install.
