@@ -9,5 +9,5 @@ Projeto configurado com:
 - Typescript,
 - Jest e Testing Library React Native,
 - Fontes da Google Fontes,
-- Arquivo theme com cores e fontes pre-instalados.
-- Navegação
+- Arquivo theme com cores e fontes pre-instalados,
+- Navegação.
