@@ -10,3 +10,4 @@ Projeto configurado com:
 - Jest e Testing Library React Native,
 - Fontes da Google Fontes,
 - Arquivo theme com cores e fontes pre-instalados.
+- Navegação
