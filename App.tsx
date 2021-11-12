@@ -11,6 +11,7 @@ import {
 } from "@expo-google-fonts/roboto";
 //screens
 import { ExamplePage } from "./src/screens/ExamplePage";
+import Router from './src/routers/index';
 
 export default function App() {
   //Inicia o carregamento das fontes.
@@ -26,7 +27,7 @@ export default function App() {
 
   return (
     <>
-      <ExamplePage />
+      <Router />
       <StatusBar style="auto" />
     </>
   );
