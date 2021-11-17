@@ -1,14 +1,12 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
-import {useNavigation} from '@react-navigation/native';
+import { useNavigation } from "@react-navigation/native";
 
 import { styles } from "./styles";
-import { stylesGlobal } from '../../global/styles/styles';
 
-import AppService from '../../services/app.service';
+import AppService from "../../services/app.service";
 
 export const Login: React.FC = (props) => {
-
   const navigation = useNavigation();
   const api = new AppService(props);
 
@@ -20,19 +18,26 @@ export const Login: React.FC = (props) => {
   }, []);
 
   const getInitial = () => {
-    const obj = {teste: 'teste'};
-    api.testGet(obj, (response: Object) => {
-      console.log('resposta', response);
-    }, (error: any) => {
-      console.log(error);
-    });
+    const obj = { teste: "teste" };
+    api.testGet(
+      obj,
+      (response: Object) => {
+        console.log("resposta", response);
+      },
+      (error: any) => {
+        console.log(error);
+      }
+    );
   };
 
   return (
-    <View style={stylesGlobal.containerCenter}>
-      <Text style={stylesGlobal.title}>Login</Text>
-      <TouchableOpacity style={stylesGlobal.button} onPress={() => navigation.navigate('Main')}>
-        <Text style={stylesGlobal.textButton}>HOME</Text>
+    <View style={styles.containerCenter}>
+      <Text style={styles.title}>Login</Text>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => navigation.navigate("Main" as never)}
+      >
+        <Text style={styles.textButton}>HOME</Text>
       </TouchableOpacity>
     </View>
   );

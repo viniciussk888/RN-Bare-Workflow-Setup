@@ -2,21 +2,17 @@
  * Configuração das rotas do APP para comunicação com a API
  */
 
-const environmentObj = {
-  currentEnvironment: 'DEV',
+export const environmentObj = {
+  currentEnvironment: "DEV",
   baseUrl: {
     DEV: {
-      urlApi: 'https://httpbin.org/',
+      urlApi: "https://httpbin.org/",
     },
     HML: {
-      urlApi: '',
+      urlApi: "",
     },
     PROD: {
-      urlApi: '',
+      urlApi: "",
     },
   },
 };
-
-export {
-  environmentObj,
-}

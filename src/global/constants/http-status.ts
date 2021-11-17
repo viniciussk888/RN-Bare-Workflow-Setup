@@ -1,7 +1,7 @@
 /**
  * Documentação: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
  */
-const STATUS = {
+export const STATUS = {
   /**
    * Essa resposta provisória indica que tudo ocorreu bem até agora e que o cliente deve continuar com a requisição ou ignorar se já concluiu o que gostaria.
    */
@@ -315,5 +315,3 @@ const STATUS = {
    */
   NETWORK_AUTHENTICATION_REQUIRED: 511,
 };
-
-export default STATUS;
